@@ -1,10 +1,9 @@
 import React, { useCallback, useState } from "react";
 import { useResizeObserver } from "@wojtekmaj/react-hooks";
 import { pdfjs, Document, Page } from "react-pdf";
-import { FaExpand, FaCompress } from "react-icons/fa"; // برای آیکون ها
+import { FaExpand, FaCompress } from "react-icons/fa";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
-import pdfFile from "../pdf.pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 
@@ -13,10 +12,10 @@ const options = {
   standardFontDataUrl: "/standard_fonts/",
 };
 
-const maxWidth = 800;
+const maxWidth = 1200;
 
-export default function Presentation() {
-  const [file, setFile] = useState(pdfFile);
+export default function Presentation(props) {
+  const [file, setFile] = useState(props.pdfFile);
   const [numPages, setNumPages] = useState();
   const [containerRef, setContainerRef] = useState(null);
   const [containerWidth, setContainerWidth] = useState();
@@ -48,10 +47,14 @@ export default function Presentation() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-4">
+    <div
+      className={`flex items-center justify-center min-h-screen ${
+        isFullScreen ? "bg-gray-100" : "bg-gray-100"
+      }`}
+    >
       <div
-        className={`relative w-full max-w-4xl overflow-y-auto p-4 bg-white shadow-2xl rounded-lg transition-all duration-300 ${
-          isFullScreen ? "h-full" : "h-[80vh]"
+        className={`relative w-full max-w-6xl overflow-auto p-6 rounded-lg transition-all duration-300 ${
+          isFullScreen ? "h-screen" : "h-screen"
         }`}
         ref={setContainerRef}
       >
@@ -59,6 +62,7 @@ export default function Presentation() {
           file={file}
           onLoadSuccess={onDocumentLoadSuccess}
           options={options}
+          className="shadow-lg"
         >
           {Array.from(new Array(numPages), (_el, index) => (
             <Page
@@ -67,20 +71,18 @@ export default function Presentation() {
               width={
                 containerWidth ? Math.min(containerWidth, maxWidth) : maxWidth
               }
-              className="mx-auto my-4 shadow-lg border rounded-md"
+              className="mx-auto my-6 shadow-md border border-gray-300 rounded-lg"
             />
           ))}
         </Document>
       </div>
 
-      <div className="absolute top-4 right-4">
-        <button
-          onClick={toggleFullScreen}
-          className="p-3 m-14 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition duration-200"
-        >
-          {isFullScreen ? <FaCompress size={20} /> : <FaExpand size={20} />}
-        </button>
-      </div>
+      <button
+        onClick={toggleFullScreen}
+        className="fixed bottom-6 right-6 p-4 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition duration-300"
+      >
+        {isFullScreen ? <FaCompress size={24} /> : <FaExpand size={24} />}
+      </button>
     </div>
   );
 }
