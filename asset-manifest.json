@@ -1,16 +1,34 @@
 {
   "files": {
-    "main.css": "/behzad/static/css/main.e37bf7cb.css",
-    "main.js": "/behzad/static/js/main.d8e9348f.js",
+    "main.css": "/behzad/static/css/main.2e45cdc4.css",
+    "main.js": "/behzad/static/js/main.52c98941.js",
+    "static/js/284.d1012be2.chunk.js": "/behzad/static/js/284.d1012be2.chunk.js",
+    "static/css/197.69e47f21.chunk.css": "/behzad/static/css/197.69e47f21.chunk.css",
+    "static/js/197.ed560f5b.chunk.js": "/behzad/static/js/197.ed560f5b.chunk.js",
+    "static/css/929.f0d73590.chunk.css": "/behzad/static/css/929.f0d73590.chunk.css",
+    "static/js/929.167db50f.chunk.js": "/behzad/static/js/929.167db50f.chunk.js",
     "static/js/453.bb8032c8.chunk.js": "/behzad/static/js/453.bb8032c8.chunk.js",
+    "static/js/204.6362ef54.chunk.js": "/behzad/static/js/204.6362ef54.chunk.js",
+    "static/js/860.8bc33e3e.chunk.js": "/behzad/static/js/860.8bc33e3e.chunk.js",
+    "static/media/snapp.MOV": "/behzad/static/media/snapp.c2e92a1431fbcc968e51.MOV",
+    "static/media/digialpha-calender.pdf": "/behzad/static/media/digialpha-calender.fb62742b663bc8c560b1.pdf",
+    "static/media/game.MOV": "/behzad/static/media/game.c1477b168084a53155ae.MOV",
     "static/media/pdf.pdf": "/behzad/static/media/pdf.07957d30760cee70b342.pdf",
+    "static/media/khane memar - logo statement.pdf": "/behzad/static/media/khane memar - logo statement.d764e7c21d568e4f816a.pdf",
     "index.html": "/behzad/index.html",
-    "main.e37bf7cb.css.map": "/behzad/static/css/main.e37bf7cb.css.map",
-    "main.d8e9348f.js.map": "/behzad/static/js/main.d8e9348f.js.map",
-    "453.bb8032c8.chunk.js.map": "/behzad/static/js/453.bb8032c8.chunk.js.map"
+    "main.2e45cdc4.css.map": "/behzad/static/css/main.2e45cdc4.css.map",
+    "main.52c98941.js.map": "/behzad/static/js/main.52c98941.js.map",
+    "284.d1012be2.chunk.js.map": "/behzad/static/js/284.d1012be2.chunk.js.map",
+    "197.69e47f21.chunk.css.map": "/behzad/static/css/197.69e47f21.chunk.css.map",
+    "197.ed560f5b.chunk.js.map": "/behzad/static/js/197.ed560f5b.chunk.js.map",
+    "929.f0d73590.chunk.css.map": "/behzad/static/css/929.f0d73590.chunk.css.map",
+    "929.167db50f.chunk.js.map": "/behzad/static/js/929.167db50f.chunk.js.map",
+    "453.bb8032c8.chunk.js.map": "/behzad/static/js/453.bb8032c8.chunk.js.map",
+    "204.6362ef54.chunk.js.map": "/behzad/static/js/204.6362ef54.chunk.js.map",
+    "860.8bc33e3e.chunk.js.map": "/behzad/static/js/860.8bc33e3e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e37bf7cb.css",
-    "static/js/main.d8e9348f.js"
+    "static/css/main.2e45cdc4.css",
+    "static/js/main.52c98941.js"
   ]
 }

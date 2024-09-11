@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbehzad=self.webpackChunkbehzad||[]).push([[284],{284:(e,s,a)=>{a.r(s),a.d(s,{default:()=>c});var t=a(579);const c=()=>(0,t.jsxs)("div",{className:"container mx-auto p-8",children:[(0,t.jsx)("h1",{className:"text-3xl font-bold mb-4",children:"About Us"}),(0,t.jsx)("p",{children:"This website is created to showcase a PDF presentation with React and Tailwind CSS."})]})}}]);
+//# sourceMappingURL=284.d1012be2.chunk.js.map
