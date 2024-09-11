@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/silkroadagency.github.io/behzad/static/css/main.9969b41e.css",
-    "main.js": "/silkroadagency.github.io/behzad/static/js/main.62b19698.js",
-    "static/js/453.bb8032c8.chunk.js": "/silkroadagency.github.io/behzad/static/js/453.bb8032c8.chunk.js",
-    "index.html": "/silkroadagency.github.io/behzad/index.html",
-    "main.9969b41e.css.map": "/silkroadagency.github.io/behzad/static/css/main.9969b41e.css.map",
-    "main.62b19698.js.map": "/silkroadagency.github.io/behzad/static/js/main.62b19698.js.map",
-    "453.bb8032c8.chunk.js.map": "/silkroadagency.github.io/behzad/static/js/453.bb8032c8.chunk.js.map"
+    "main.css": "/behzad/static/css/main.9969b41e.css",
+    "main.js": "/behzad/static/js/main.30c8c242.js",
+    "static/js/453.bb8032c8.chunk.js": "/behzad/static/js/453.bb8032c8.chunk.js",
+    "index.html": "/behzad/index.html",
+    "main.9969b41e.css.map": "/behzad/static/css/main.9969b41e.css.map",
+    "main.30c8c242.js.map": "/behzad/static/js/main.30c8c242.js.map",
+    "453.bb8032c8.chunk.js.map": "/behzad/static/js/453.bb8032c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9969b41e.css",
-    "static/js/main.62b19698.js"
+    "static/js/main.30c8c242.js"
   ]
 }
